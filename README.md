@@ -23,13 +23,13 @@ Proyek ini adalah aplikasi berita berbasis mobile yang memungkinkan pengguna unt
 
 **Struktur Folder**
 
-/mobile-news-app-master
-── android/             # Kode sumber untuk platform Android
-── ios/                 # Kode sumber untuk platform iOS
-── lib/                 # Folder utama berisi kode aplikasi dalam bahasa Dart
-── assets/              # Folder untuk gambar dan aset lainnya
-── pubspec.yaml         # File konfigurasi dependensi Flutter
-── README.md            # Dokumentasi proyek
+  -- /mobile-news-app-master
+    - android/             # Kode sumber untuk platform Android
+    - ios/                 # Kode sumber untuk platform iOS
+    - lib/                 # Folder utama berisi kode aplikasi dalam bahasa Dart
+    - assets/              # Folder untuk gambar dan aset lainnya
+    - pubspec.yaml         # File konfigurasi dependensi Flutter
+    - README.md            # Dokumentasi proyek
 
 **Fitur Utama**
   - Berita Terbaru: Menampilkan berita terbaru dengan kategori yang dapat dipilih.
