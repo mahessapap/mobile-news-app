@@ -1,16 +1,36 @@
-# news_app
+DOKUMENTASI PROYEK: MOBILE NEWS APP
+1. Pendahuluan
+Proyek ini adalah aplikasi berita berbasis mobile yang memungkinkan pengguna untuk membaca berita terbaru dari berbagai sumber. Aplikasi ini dibangun menggunakan framework Flutter, yang memungkinkan pengembangan aplikasi cross-platform untuk Android dan iOS.
+2. Teknologi yang Digunakan
+•	Flutter: Framework utama untuk pengembangan aplikasi mobile.
+•	Dart: Bahasa pemrograman yang digunakan dalam Flutter.
+•	Firebase: Backend untuk autentikasi dan penyimpanan data.
+•	API Berita: Digunakan untuk mengambil berita dari sumber eksternal.
+•	Gradle: Untuk mengelola dependensi pada proyek Android.
+3. Cara Menjalankan Proyek
+1. Persyaratan:
+•	Install Flutter SDK
+•	Install Android Studio atau Visual Studio Code dengan ekstensi Flutter
+•	Pastikan `flutter doctor` berjalan tanpa error
 
-A new Flutter project.
+2. Langkah-langkah:
+1.	Clone repository proyek dari GitHub atau ekstrak dari file ZIP.
+2.	Jalankan perintah berikut untuk menginstal dependensi: flutter pub get
+3.	Untuk menjalankan aplikasi pada emulator atau perangkat fisik: flutter run
+4. Struktur Folder
 
-## Getting Started
+/mobile-news-app-master
+│── android/             # Kode sumber untuk platform Android
+│── ios/                 # Kode sumber untuk platform iOS
+│── lib/                 # Folder utama berisi kode aplikasi dalam bahasa Dart
+│── assets/              # Folder untuk gambar dan aset lainnya
+│── pubspec.yaml         # File konfigurasi dependensi Flutter
+│── README.md            # Dokumentasi proyek
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Fitur Utama
+•	Berita Terbaru: Menampilkan berita terbaru dengan kategori yang dapat dipilih.
+•	Pencarian Berita: Memungkinkan pengguna mencari berita berdasarkan kata kunci.
+•	Favorit: Pengguna dapat menyimpan berita favorit mereka.
+•	Mode Gelap: Opsi untuk beralih antara mode terang dan mode gelap.
+6. Kesimpulan
+Aplikasi ini memberikan pengalaman membaca berita yang nyaman dengan antarmuka yang responsif dan modern. Dengan menggunakan Flutter, aplikasi dapat berjalan di berbagai platform dengan efisiensi tinggi.
